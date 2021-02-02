@@ -28,7 +28,7 @@ while True:
         print(conf)
         if(conf > 60):
          if(id==1):
-            id='Dheeraj'
+            id='Reshama'
             if((str(id)) not in dict):
                 filename =xlwrite.output('attendance','class1',1,id,'yes')
                 dict[str(id)]=str(id)
@@ -40,19 +40,19 @@ while True:
                 dict[str(id)] = str(id)
 
          elif(id==3):
-            id = 'Akshatha'
+            id = 'Abhi'
             if ((str(id)) not in dict):
                 filename =xlwrite.output('attendance', 'class1', 3, id, 'yes')
                 dict[str(id)] = str(id)
 
         elif(id==4):
-            id = 'Akash'
+            id = 'Hitesh'
             if ((str(id)) not in dict):
                 filename =xlwrite.output('attendance', 'class1', 4, id, 'yes')
                 dict[str(id)] = str(id)
 
         elif(id==5):
-            id = 'Ashritha'
+            id = 'Rahul'
             if ((str(id)) not in dict):
                 filename =xlwrite.output('attendance', 'class1', 5, id, 'yes')
                 dict[str(id)] = str(id)
