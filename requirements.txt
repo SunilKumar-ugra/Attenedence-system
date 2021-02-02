@@ -1,0 +1,10 @@
+tkinter
+firebase
+numpy
+pillow
+xlwrite
+opencv-python
+pillow
+opencv-contrib-python
+xlwt
+xlrd
